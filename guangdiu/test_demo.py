@@ -24,24 +24,6 @@ if __name__ == "__main__":
     print(p.pid)
     print("main exit")
 '''
-
-import multiprocessing as mp
-import time
-
-"""
-1. send item via pipe
-2. Receive on the other end by a generator
-3. if the pipe is closed on the sending side, retrieve
-all item left and then quit.
-"""
-
-def func(p):
-    pass
-
-if __name__=="__main__":
-    p = mp.Pipe(duplex=False)
-    #with mp.Process(target=func, args=(p,)) as p:
-    #    p.start()
-    if isinstance(p, mp.Pipe):
-        print(1)
-    print(type(p))
+'''
+ddddddddddddddddddddddddddddddddddddddddd
+'''
